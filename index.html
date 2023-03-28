@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Chavez_ACT4</title>
+  </head>
+  <body>
+    <!-- Student information form -->
+    <div id="form-table" class="static bg-indigo-50 bg-indigo-300 w-80 border-2 rounded-md">
+      <form action="">
+        <div></div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" class="font-semibold border bg-white py-1 px-2 rounded-md" />
+        </div>
+        <div>
+          <fieldset>
+            <legend>Year:</legend>
+            <label><input type="radio" name="year" value="1st" />1st</label>
+            <label><input type="radio" name="year" value="2nd" />2nd</label>
+            <label><input type="radio" name="year" value="3rd" />3rd</label>
+            <label><input type="radio" name="year" value="4th" />4th</label>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Course:</legend>
+            <label><input type="radio" name="course" value="cs" />CS</label>
+            <label><input type="radio" name="course" value="ds" />DS</label>
+            <label><input type="radio" name="course" value="it" />IT</label>
+            <label><input type="radio" name="course" value="is" />IS</label>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" />Male</label>
+            <label><input type="radio" name="gender" value="female" />Female</label>
+          </fieldset>
+        </div>
+        <div>
+          <label for="final-grade">Final Grade:</label>
+          <input type="number" id="final-grade" placeholder="Enter your final grade" class="font-semibold border bg-white py-1 px-2 rounded-md" />
+        </div>
+        <div class="py-2 content-center">
+          <button class="w-40 bg-indigo-300 py-3 text-center text-white">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Student information table -->
+    <div id="data-table">
+      <div>
+        <label for="search-query">Search:</label>
+        <input type="text" id="search-query" />
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Course</th>
+            <th>Gender</th>
+            <th>Final Grade</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+         
+            </body>
