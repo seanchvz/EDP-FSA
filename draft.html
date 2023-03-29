@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Chavez_ACT4</title>
+  </head>
+  <body>
+    <!-- Search Here -->
+    <div class="bg-white rounded-2xl p-6 px-10 w-100 left-20 top-10 bottom-13 m-5 absolute">
+        <form id="searchForm">
+        <label class="block text-gray-700 font-bold mb-6" for="title">
+            Search Form
+          </label>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2" for="name">
+            Name
+          </label>
+          <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your name">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2">
+            Year Level
+          </label>
+          <div class="flex items-center">
+            <input class="mr-2 leading-tight" type="radio" name="year_level" value="1">
+            <label class="text-gray-700" for="year_level_1">
+              1st year
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="year_level" value="2">
+            <label class="text-gray-700" for="year_level_2">
+              2nd year
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="year_level" value="3">
+            <label class="text-gray-700" for="year_level_3">
+              3rd year
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="year_level" value="4">
+            <label class="text-gray-700" for="year_level_4">
+              4th year
+            </label>
+          </div>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2" for="course">
+            Course
+          </label>
+          <div class="flex items-center">
+            <input class="mr-2 leading-tight" type="radio" name="course" value="1">
+            <label class="text-gray-700" for="c1">
+              CS
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="course" value="2">
+            <label class="text-gray-700" for="c2">
+              DS
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="course" value="3">
+            <label class="text-gray-700" for="c3">
+              IT
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="course" value="4">
+            <label class="text-gray-700" for="c4">
+              IS
+            </label>
+        
+        
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2">
+            Gender
+          </label>
+          <div class="flex items-center">
+            <input class="mr-2 leading-tight" type="radio" name="gender" value="male">
+            <label class="text-gray-700" for="gender_male">
+              Male
+            </label>
+            <input class="ml-8 mr-2 leading-tight" type="radio" name="gender" value="female">
+            <label class="text-gray-700" for="gender_female">
+              Female
+            </label>
+          </div>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2" for="final_grade">
+            Final Grade
+          </label>
+          <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="final_grade" type="text" placeholder="Enter your final grade">
+        </div>
+        <div class="mt-8">
+    
+            <div class="py-2 content-center">
+                <button class="w-40 bg-indigo-300 py-3 rounded-2xl text-center text-white">Submit</button>
+              </div>
+              </div>
+        </form>
+        </div>
+    </div>
+
+<!-- Input form -->
+<form id="inputform">
+    <div class="bg-white rounded-2xl p-6 px-10 w-100 right-20 top-10 bottom-13 m-5 absolute">
+    <label class="block text-gray-700 font-bold mb-6 mt-2" for="title">
+        Input Form
+      </label>
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="name">
+        Name
+      </label>
+      <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your name">
+    </div>
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2">
+        Year Level
+      </label>
+      <div class="flex items-center">
+        <input class="mr-2 leading-tight" type="radio" name="year_level" value="1">
+        <label class="text-gray-700" for="year_level_1">
+          1st year
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="year_level" value="2">
+        <label class="text-gray-700" for="year_level_2">
+          2nd year
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="year_level" value="3">
+        <label class="text-gray-700" for="year_level_3">
+          3rd year
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="year_level" value="4">
+        <label class="text-gray-700" for="year_level_4">
+          4th year
+        </label>
+      </div>
+    </div>
+
+<!-- Course -->
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="course">
+        Course
+      </label>
+      <div class="flex items-center">
+        <input class="mr-2 leading-tight" type="radio" name="course" value="1">
+        <label class="text-gray-700" for="c1">
+          CS
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="course" value="2">
+        <label class="text-gray-700" for="c2">
+          DS
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="course" value="3">
+        <label class="text-gray-700" for="c3">
+          IT
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="course" value="4">
+        <label class="text-gray-700" for="c4">
+          IS
+        </label>
+    
+<!-- Gender -->
+    </div>
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2">
+        Gender
+      </label>
+      <div class="flex items-center">
+        <input class="mr-2 leading-tight" type="radio" name="gender" value="male">
+        <label class="text-gray-700" for="gender_male">
+          Male
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="gender" value="female">
+        <label class="text-gray-700" for="gender_female">
+          Female
+        </label>
+      </div>
+    </div>
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="final_grade">
+        Final Grade
+      </label>
+      <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="final_grade" type="text" placeholder="Enter your final grade">
+    </div>
+    <div class="mt-8">
+
+        <div class="py-2 content-center">
+            <button class="w-40 bg-green-600 py-3 mb-6 rounded-2xl text-center text-white">Search</button>
+          </div>
+          
+    </form>
+</div>
+</div>
+</div>
+
+
+<!-- Table -->
+<div class="fixed left-80 bottom-10 w-100 rounded-2xl max-h-64 overflow-y-auto">
+    <div class="bg-white rounded-lg shadow-md">
+      <table class="w-full">
+        <thead>
+          <tr class="border-b border-gray-200">
+            <th class="px-4 py-3 text-left font-bold black">Name</th>
+            <th class="px-4 py-3 text-left font-bold black">Year</th>
+            <th class="px-4 py-3 text-left font-bold black">Course</th>
+            <th class="px-4 py-3 text-left font-bold black">Gender</th>
+            <th class="px-4 py-3 text-left font-bold black">Final Grade</th>
+            <th class="px-4 py-3 text-left font-bold black">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+<!-- Table Contents -->
+            <tr class="bg-white hover:bg-gray-100">
+                <td class="py-4 px-6 text-left black font-medium">Sean Elijah Chavez</td>
+                <td class="py-4 px-6 text-left black font-medium">IT</td>
+                <td class="py-4 px-6 text-left black font-medium">2nd</td> 
+                <td class="py-4 px-6 text-left black font-medium">Male</td>
+                <td class="py-4 px-6 text-left black font-medium">97.00</td>
+                <td class="py-4 px-6 text-left">
+                  <button class="bg-red-700 hover:bg-red-900 text-white font-semibold py-2 px-4 rounded-xl">
+                    Delete
+                  </button>
+                </td>
+              </tr>
+              <tr class="bg-white hover:bg-gray-100">
+                <td class="py-4 px-6 text-left text-black font-medium">Miguel Espera</td>
+                <td class="py-4 px-6 text-left text-black font-medium">BSA</td>
+                <td class="py-4 px-6 text-left text-black font-medium">3rd</td> 
+                <td class="py-4 px-6 text-left text-black font-medium">Male</td>
+                <td class="py-4 px-6 text-left text-black font-medium">97.00</td>
+                <td class="py-4 px-6 text-left">
+                  <button class="bg-red-700 hover:bg-red-900 text-white font-semibold py-2 px-4 rounded-xl">
+                    Delete
+                  </button>
+                </td>
+              </tr>  
+              <tr>
+<!-- Summary: Average Grade -->
+                <td colspan="3" class="justify-center py-3 px-4 text-right font-bold" id="gradeRow">Average Grade:</td>
+                <td class="py-3 px-4 text-left font-bold">97</td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  
+</body>
+  

@@ -1,0 +1,7 @@
+body {
+    background-color: lightblue;
+  }
+  
+p:hover::after {
+    content: "X  ";
+  }
