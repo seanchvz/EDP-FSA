@@ -9,23 +9,27 @@
     <title>Chavez_ACT4</title>
   </head>
   <body>
-    <!-- Search Here -->
-    <div class="bg-white rounded-2xl p-6 px-10 w-100 left-20 top-10 bottom-13 m-5 absolute">
+    <!--Input Form  -->
+    <h1 class="text-md font-semibold">
+    <div class="bg-white rounded-2xl p-6 px-10 w-100 left-20 top-10 bottom-13 m-5 absolute mb-20">
+
         <form id="searchForm">
         <label class="block text-gray-700 font-bold mb-6" for="title">
-            Search Form
-          </label>
+            Input Form
+        </label>
+
         <div class="mb-4">
-          <label class="block text-gray-700 font-bold mb-2" for="name">
+        <label class="block text-gray-700 font-bold mb-2" for="name">
             Name
-          </label>
-          <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your name">
+        </label>
+        <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your name">
         </div>
+
         <div class="mb-4">
-          <label class="block text-gray-700 font-bold mb-2">
+        <label class="block text-gray-700 font-bold mb-2">
             Year Level
-          </label>
-          <div class="flex items-center">
+        </label>
+        <div class="flex items-center">
             <input class="mr-2 leading-tight" type="radio" name="year_level" value="1">
             <label class="text-gray-700" for="year_level_1">
               1st year
@@ -42,13 +46,14 @@
             <label class="text-gray-700" for="year_level_4">
               4th year
             </label>
-          </div>
-        </div>
+    </div>
+</div>
+
         <div class="mb-4">
-          <label class="block text-gray-700 font-bold mb-2" for="course">
-            Course
-          </label>
-          <div class="flex items-center">
+            <label class="block text-gray-700 font-bold mb-2" for="course">
+                Course
+            </label>
+            <div class="flex items-center">
             <input class="mr-2 leading-tight" type="radio" name="course" value="1">
             <label class="text-gray-700" for="c1">
               CS
@@ -65,45 +70,45 @@
             <label class="text-gray-700" for="c4">
               IS
             </label>
-        
-        
         </div>
-        <div class="mb-4">
-          <label class="block text-gray-700 font-bold mb-2">
-            Gender
-          </label>
-          <div class="flex items-center">
-            <input class="mr-2 leading-tight" type="radio" name="gender" value="male">
-            <label class="text-gray-700" for="gender_male">
-              Male
-            </label>
-            <input class="ml-8 mr-2 leading-tight" type="radio" name="gender" value="female">
-            <label class="text-gray-700" for="gender_female">
-              Female
-            </label>
-          </div>
-        </div>
-        <div class="mb-4">
-          <label class="block text-gray-700 font-bold mb-2" for="final_grade">
-            Final Grade
-          </label>
-          <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="final_grade" type="text" placeholder="Enter your final grade">
-        </div>
-        <div class="mt-8">
-    
-            <div class="py-2 content-center">
-                <button class="w-40 bg-indigo-300 py-3 rounded-2xl text-center text-white">Submit</button>
-              </div>
-              </div>
-        </form>
-        </div>
-    </div>
 
-<!-- Input form -->
+        <div class="mb-4">
+        <label class="block text-gray-700 font-bold mb-2">
+            Gender
+        </label>
+        <div class="flex items-center">
+        <input class="mr-2 leading-tight" type="radio" name="gender" value="male">
+        <label class="text-gray-700" for="gender_male">
+            Male
+        </label>
+        <input class="ml-8 mr-2 leading-tight" type="radio" name="gender" value="female">
+        <label class="text-gray-700" for="gender_female">
+            Female
+        </label>
+    </div>
+</div>
+
+        <div class="mb-4">
+        <label class="block text-gray-700 font-bold mb-2" for="final_grade">
+            Final Grade
+        </label>
+        <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="final_grade" type="text" placeholder="Enter your final grade">
+        </div>
+
+        <div class="mt-8">
+        <div class="py-2 content-center">
+            <button class="w-40 bg-blue-300 py-3 rounded-2xl text-center font-semibold text-gray-700">Submit</button>
+        </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+<!-- Search -->
 <form id="inputform">
-    <div class="bg-white rounded-2xl p-6 px-10 w-100 right-20 top-10 bottom-13 m-5 absolute">
+    <div class="bg-white rounded-2xl p-6 px-10 w-100 right-20 top-10 bottom-13 m-5 absolute mb-20">
     <label class="block text-gray-700 font-bold mb-6 mt-2" for="title">
-        Input Form
+        Search
       </label>
     <div class="mb-4">
       <label class="block text-gray-700 font-bold mb-2" for="name">
@@ -173,28 +178,27 @@
         <label class="text-gray-700" for="gender_female">
           Female
         </label>
-      </div>
     </div>
+</div>
+
     <div class="mb-4">
-      <label class="block text-gray-700 font-bold mb-2" for="final_grade">
+    <label class="block text-gray-700 font-bold mb-2" for="final_grade">
         Final Grade
-      </label>
-      <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="final_grade" type="text" placeholder="Enter your final grade">
-    </div>
+    </label>
+    <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="final_grade" type="text" placeholder="Enter your final grade">
+</div>
+
     <div class="mt-8">
-
         <div class="py-2 content-center">
-            <button class="w-40 bg-green-600 py-3 mb-6 rounded-2xl text-center text-white">Search</button>
-          </div>
-          
-    </form>
+            <button class="w-40 bg-blue-300 font-semibold text-gray-600 py-3 mb-1 rounded-2xl text-center">Search</button>
+    </div>
+</form>
 </div>
 </div>
 </div>
-
 
 <!-- Table -->
-<div class="fixed left-80 bottom-10 w-100 rounded-2xl max-h-64 overflow-y-auto">
+<div class="fixed left-1/2 bottom-1 transform -translate-x-1/2 w-100 rounded-2xl max-h-64 overflow-y-auto">
     <div class="bg-white rounded-lg shadow-md">
       <table class="w-full">
         <thead>
